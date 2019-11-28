@@ -4,6 +4,10 @@
 ## 1. 简易的入门手册
 
 step 1. 通过**source ds.sh install**安装它(其实就是在/home/your_user/.bashrc中加载ds.sh)
+```sh
+cd ds_tool
+source ds.sh install
+```
 
 step 2. 创建一个路径表
 ```sh
