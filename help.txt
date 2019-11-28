@@ -1,0 +1,22 @@
+ds tool v1.1 (directories tool)
+---------------------------------------------------------------------
+ds                                 # show path list
+ds [index]                         # cd to path by index
+
+ds [-a <conf_name>]                # add conf
+ds [-s]                            # show conf list
+ds [-s [conf_indexe]]              # switch to conf
+ds [-d <conf_index | all>]         # delete conf
+ds [-help]                         # read ds tool help
+
+da                                 # add now path to list
+da [path]                          # add path to list
+
+dd [index]                         # delete path from list by index
+dd [all]                           # clear path list
+
+di <src_index> <dst_index>         # move src_index before to dst_index
+
+source ds.sh [install | uninstall] # install | uninstall ds_tool
+---------------------------------------------------------------------
+
